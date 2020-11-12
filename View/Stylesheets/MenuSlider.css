@@ -1,0 +1,18 @@
+.slider
+{
+    -fx-show-tick-marks: true;
+    -fx-major-tick-unit: 5;
+    -fx-snap-to-ticks: true;
+}
+
+.slider .thumb
+{
+    -fx-padding: 15;
+    -fx-background-color: white;
+}
+
+.slider .track
+{
+    -fx-padding: 15;
+    -fx-background-color: rgba(0,0,0,.6);
+}
